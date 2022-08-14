@@ -1,0 +1,19 @@
+.mainNavbar{
+  height: 5em;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+.mainNavbar .LogoTitle{
+  width: 20%;
+  font-size: 33px;
+  font-weight: 600;
+  background: var(--gradient-bar);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainNavbar .menuOptions{
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+}

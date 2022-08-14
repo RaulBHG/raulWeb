@@ -1,0 +1,29 @@
+#mainClaim{
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 39rem;
+}
+#mainClaim .left{
+  padding-right: 2rem;
+}
+#mainClaim .left .titleWeb{
+  background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+  margin-bottom: 3rem;
+  margin-top: -2em;
+}
+#mainClaim .left .subTitleWeb{
+  font-size: 18px;
+  max-width: 40em;
+}
+#mainClaim .right{
+  padding-left: 2rem;
+}
+#mainClaim .right img{
+  width: auto;
+  height: 37em;
+}
