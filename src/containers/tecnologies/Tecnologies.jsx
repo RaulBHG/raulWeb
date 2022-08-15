@@ -1,6 +1,5 @@
 import React from 'react'
 import './tecnologies.css'
-import ExImg from '../../assets/php.png'
 import Cta from '../../components/cta/Cta'
 
 const Tecnologies = () => {
