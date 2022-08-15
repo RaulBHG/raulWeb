@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import ClaimImg from '../../assets/ai.png'
+import ClaimImg from '../../assets/ai2.png'
 
 const ImgFollow = () => {
   // FACE FOLLOW

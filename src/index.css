@@ -9,8 +9,8 @@
   color: rgba(255, 255, 255, 0.87);
   
   --gradient-bg: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 0%, #6EF0FF 100%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #ff0000 99.55%);
+  --gradient-text: linear-gradient(10deg, #08a3da 0%, #ce67fa 50%);
+  --gradient-bar: linear-gradient(10deg, #baeafb 0%, #d36dfe 28%);
 }
 
 a {
@@ -32,4 +32,40 @@ body{
 
 .gradient_bg{
   background: var(--gradient-bg);
+}
+
+.container{
+  padding: 0 10%;
+}
+
+:root::before{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: var(--gradient-bg);
+  z-index: -1;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0d1e38;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  
+  background: #040C18;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #071427;
 }

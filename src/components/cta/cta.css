@@ -1,0 +1,35 @@
+.card{
+  background-color: #073461;
+  border-radius: 15px;
+  box-shadow: 0 0 17px #01438b;
+  width: 20rem;
+  height: 23rem;
+  transition: .3s ease-out;
+  margin-bottom: 4rem;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+
+.card .imgCard{
+  height: 10rem;
+  width: 100%;
+  position: relative;
+}
+.card .imgCard img{
+  object-fit: cover;
+  height: 75%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .infoPart{
+  padding: .5rem .8rem;
+}
+
+.card .infoPart .title{
+  font-size: 22px;
+    padding-bottom: 0.7rem;
+}

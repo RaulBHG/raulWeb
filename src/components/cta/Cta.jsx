@@ -1,9 +1,17 @@
 import React from 'react'
 import './cta.css'
 
-const Cta = () => {
+const Cta = ({ title, info, img }) => {
   return (
-    <div>Cta</div>
+    <div className='card'>
+      <div className='imgCard'>
+        <img src={`${window.location}src/assets/${img}.png`}/>
+      </div>
+      <div className='infoPart'>
+        <h3 className='title'>{title}</h3>
+        <p className='info'>{info}</p>
+      </div>
+    </div>
   )
 }
 
