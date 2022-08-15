@@ -4,15 +4,30 @@
   align-items: center;
 }
 .mainNavbar .LogoTitle{
-  width: 20%;
+  width: auto;
   font-size: 33px;
   font-weight: 600;
-  background: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
+  position: fixed;  
+  transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.mainNavbar .LogoTitle.left{
+  transform: translateX(-132%);
 }
 .mainNavbar .menuOptions{
   width: 75%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-45%);
   display: flex;
   justify-content: space-evenly;
+}
+.mainNavbar .openMenu{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }

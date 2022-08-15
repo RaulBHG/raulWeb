@@ -4,7 +4,10 @@
   box-shadow: 0 0 17px #01438b;
   width: 20rem;
   height: 23rem;
-  transition: .3s ease-out;
+  transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   margin-bottom: 4rem;
 }
 .card:hover{

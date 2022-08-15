@@ -6,14 +6,19 @@ import Cta from './components/cta/Cta'
 import Feature from './components/feature/Feature'
 import Tecnologies from './containers/tecnologies/Tecnologies';
 
+import Reveal from 'react-reveal/Reveal';
+
+
 function App() {
 
   return (
     <div>
       <div>
-        <Navbar></Navbar>
-        <Claim></Claim>
-        <Tecnologies></Tecnologies>
+        <Reveal>
+          <Navbar></Navbar>
+          <Claim></Claim>
+          <Tecnologies></Tecnologies>
+        </Reveal>
       </div>
     </div>
   )
