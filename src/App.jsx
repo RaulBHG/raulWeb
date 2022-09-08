@@ -7,17 +7,21 @@ import Feature from './components/feature/Feature'
 import Tecnologies from './containers/tecnologies/Tecnologies';
 
 import Reveal from 'react-reveal/Reveal';
+import SnowBg from './components/snowBg/SnowBg';
+import About from './containers/about/About';
 
 
 function App() {
 
   return (
     <div>
-      <div>
-        <Reveal>
-          <Navbar></Navbar>
+      <div>     
+        <SnowBg></SnowBg>   
+        <Navbar></Navbar>
+        <Reveal>          
           <Claim></Claim>
           <Tecnologies></Tecnologies>
+          <About></About>
         </Reveal>
       </div>
     </div>

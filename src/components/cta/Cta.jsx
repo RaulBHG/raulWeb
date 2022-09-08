@@ -5,7 +5,7 @@ const Cta = ({ title, info, img }) => {
   return (
     <div className='card'>
       <div className='imgCard'>
-        <img src={`${window.location}src/assets/${img}.png`}/>
+        <img src={`${window.location.pathname}src/assets/${img}.png`}/>
       </div>
       <div className='infoPart'>
         <h3 className='title'>{title}</h3>

@@ -1,14 +1,14 @@
 .card{
   background-color: #073461;
   border-radius: 15px;
-  box-shadow: 0 0 17px #01438b;
+  box-shadow: 0 0 6px #01438b;
   width: 20rem;
   height: 23rem;
   transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -o-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -moz-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -webkit-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .card:hover{
   transform: scale(1.05);
@@ -35,4 +35,50 @@
 .card .infoPart .title{
   font-size: 22px;
     padding-bottom: 0.7rem;
+}
+
+@media(max-width: 535px){
+  .card{
+    width: 48%;
+    height: 12rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 4px #01438b;    
+    position: relative;
+    overflow: hidden; 
+  }
+  .card .imgCard {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  .card .imgCard img{
+    width: 92%;
+    height: auto;
+  }
+  .card:hover{
+    transform: none;
+    overflow: auto; 
+  }
+  .card .infoPart{
+    transition: .7s;
+      -o-transition: .7s;
+      -moz-transition: .7s;
+      -webkit-transition: .7s;
+    z-index: 2;
+    background-color: #073461de;
+    width: calc(100% - 1.6rem);
+    top: 0;
+    left: 0;
+    margin-top: 1rem;
+    height: 100%;
+    overflow: auto;
+  }
+  .card:hover > .infoPart{
+    transform: translateY(-13rem);
+    margin-bottom: -13rem;
+    margin-top: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+  }
+
 }

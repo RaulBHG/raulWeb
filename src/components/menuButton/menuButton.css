@@ -9,10 +9,10 @@
   width: 17px;
   border-radius: 9px;
   margin: 3px 0;
-  transition: .5s ease-in;
-  -o-transition: .5s ease-in;
-  -moz-transition: .5s ease-in;
-  -webkit-transition: .5s ease-in;
+  transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .menuButton.open > span:nth-child(1){
   transform: rotate(45deg) translate(2.6px, 4.8px);
