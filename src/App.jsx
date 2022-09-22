@@ -9,6 +9,7 @@ import Tecnologies from './containers/tecnologies/Tecnologies';
 import Reveal from 'react-reveal/Reveal';
 import SnowBg from './components/snowBg/SnowBg';
 import About from './containers/about/About';
+import Experience from './containers/experience/Experience';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Claim></Claim>
           <Tecnologies></Tecnologies>
           <About></About>
+          <Experience></Experience>
         </Reveal>
       </div>
     </div>

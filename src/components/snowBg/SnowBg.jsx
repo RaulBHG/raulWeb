@@ -49,7 +49,7 @@ const SnowBg = () => {
               <ellipse cx="887" cy="598.5" rx="4" ry="3.5"/>
             </g>
             </g>
-            <g fill="#051d5f" fill-opacity=".3" transform="translate(65 63)">
+            <g fill="#072885" fill-opacity=".3" transform="translate(65 63)">
             <g id="snow-top-layer">              
               <circle cx="8" cy="776" r="5"/>
               <circle cx="189" cy="925" r="5"/>
