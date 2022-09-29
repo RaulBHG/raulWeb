@@ -11,6 +11,8 @@ import SnowBg from './components/snowBg/SnowBg';
 import About from './containers/about/About';
 import Experience from './containers/experience/Experience';
 
+import Footer from './containers/footer/Footer';
+
 
 function App() {
 
@@ -25,6 +27,7 @@ function App() {
           <About></About>
           <Experience></Experience>
         </Reveal>
+        <Footer></Footer>
       </div>
     </div>
   )
