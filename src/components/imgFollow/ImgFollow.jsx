@@ -1,10 +1,10 @@
 import { useEffect } from 'react'
-import ClaimImg from '../../assets/ai2.png'
+import ClaimImg from '../../assets/mainImg.webp'
 
 const ImgFollow = () => {
   // FACE FOLLOW
   useEffect(() => {
-    const constrain = 850;
+    const constrain = 3000;
     const mouseOverContainer = document.getElementById('mainClaim');
     const ex1Layer = document.getElementById('mainImg');
 

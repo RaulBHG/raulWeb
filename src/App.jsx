@@ -6,14 +6,28 @@ import Cta from './components/cta/Cta'
 import Feature from './components/feature/Feature'
 import Tecnologies from './containers/tecnologies/Tecnologies';
 
+import Reveal from 'react-reveal/Reveal';
+import SnowBg from './components/snowBg/SnowBg';
+import About from './containers/about/About';
+import Experience from './containers/experience/Experience';
+
+import Footer from './containers/footer/Footer';
+
+
 function App() {
 
   return (
     <div>
-      <div>
+      <div>     
+        <SnowBg></SnowBg>   
         <Navbar></Navbar>
-        <Claim></Claim>
-        <Tecnologies></Tecnologies>
+        <Reveal>          
+          <Claim></Claim>
+          <Tecnologies></Tecnologies>
+          <About></About>
+          <Experience></Experience>
+        </Reveal>
+        <Footer></Footer>
       </div>
     </div>
   )

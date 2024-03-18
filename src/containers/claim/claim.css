@@ -4,6 +4,9 @@
   align-items: center;
   height: 39rem;
   flex-wrap: wrap;
+  overflow: hidden;
+  margin-right: 0;
+  padding-right: 10%;
 }
 #mainClaim .left{
   padding-right: 2rem;
@@ -18,8 +21,8 @@
   background: var(--gradient-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4em;
-  margin-bottom: 3rem;
+  font-size: 4em;
+  margin-bottom: .72em;
   margin-top: -2em;
 }
 #mainClaim .left .subTitleWeb{
@@ -28,5 +31,44 @@
 }
 #mainClaim .right img{
   width: auto;
-  height: 37em;
+  height: 34em;
+}
+
+@media(max-width: 1260px){
+  #mainClaim{
+    padding-right: 0;
+    margin-right: 15px;
+    height: auto;
+    margin-top: 6rem;
+  }
+  #mainClaim .right img {
+    width: auto;
+    height: 83%;
+  }
+  #mainClaim .left, #mainClaim .right{
+    padding: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  #mainClaim .right{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+  }
+  #mainClaim .left .titleWeb{
+    margin-top: .5em;
+  }
+  
+}
+
+@media(max-width: 535px){
+  #mainClaim .left{
+    font-size: 11px;
+  }
+  #mainClaim .left .subTitleWeb {
+    font-size: 16px;
+  }
 }

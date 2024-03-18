@@ -1,16 +1,12 @@
-#tecnologiesSection{
-  margin-top: 4rem;  
-}
-#tecnologiesSection h2{
+#experienceSection h2{
   background: var(--gradient-text);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3.2em;
   padding-bottom: 1.1em;
 }
-#tecnologiesSection .cardSection{
+#experienceSection .cardSection{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-

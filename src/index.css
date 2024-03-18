@@ -17,6 +17,7 @@ a {
   font-weight: 500;
   color: #fff;
   text-decoration: inherit;
+  line-height: 1;
 }
 p{
   margin: 0;
@@ -35,7 +36,8 @@ body{
 }
 
 .container{
-  padding: 0 10%;
+  margin: 0 10%;
+  position: relative;
 }
 
 :root::before{
@@ -47,6 +49,7 @@ body{
   width: 100vw;
   background: var(--gradient-bg);
   z-index: -1;
+  background-size: 150% 150%;
 }
 
 /* width */
@@ -68,4 +71,14 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #071427;
+}
+
+@media(max-width: 1260px){
+  .container {
+    margin: 0 15px;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0;
+  }
 }
