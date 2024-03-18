@@ -1,0 +1,16 @@
+#tecnologiesSection{
+  margin: 4rem 0;
+}
+#tecnologiesSection h2{
+  background: var(--gradient-bar);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.7em;
+  padding-bottom: 1.1em;
+}
+#tecnologiesSection .cardSection{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+

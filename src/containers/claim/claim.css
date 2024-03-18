@@ -1,0 +1,32 @@
+#mainClaim{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 39rem;
+  flex-wrap: wrap;
+}
+#mainClaim .left{
+  padding-right: 2rem;
+  width: 45%;
+  min-width: 25em;
+}
+#mainClaim .right{
+  padding-left: 2rem;
+  width: 45%;
+}
+#mainClaim .left .titleWeb{
+  background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+  margin-bottom: 3rem;
+  margin-top: -2em;
+}
+#mainClaim .left .subTitleWeb{
+  font-size: 18px;
+  max-width: 40em;
+}
+#mainClaim .right img{
+  width: auto;
+  height: 37em;
+}
